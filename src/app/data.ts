@@ -116,7 +116,7 @@ export const BtnList: IBtnList[] = [
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "/cv.pdf",
     icon: "resume",
     newTab: true,
   },

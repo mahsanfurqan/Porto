@@ -11,10 +11,10 @@ const AboutDetails = () => {
             M. Ahsan Furqan
           </h2>
           <p className="text-lg text-muted-foreground mb-4">
-            Web & Mobile App Developer | Mahasiswa FILKOM 2022
+            Web & Mobile App Developer & Designer UI/UX | Mahasiswa FILKOM 2022
           </p>
           <p className="font-light text-base leading-relaxed">
-            Saya adalah seorang mahasiswa Fakultas Ilmu Komputer angkatan 2022 yang memiliki ketertarikan tinggi terhadap pengembangan aplikasi berbasis web dan mobile. Saat ini saya aktif mengembangkan aplikasi Flutter menggunakan GetX state management, serta memiliki ketertarikan khusus pada UI/UX dan solusi digital untuk daerah terpencil. Saya juga memiliki pengalaman menggunakan Laravel di sisi backend dan antusias mengembangkan produk yang bermanfaat.
+            I am a student with a strong passion for mobile application development and UI/UX design. With a background in information technology, I am committed to combining education and technology to create innovative digital solutions. My focus is on designing intuitive and engaging user experiences while continuously developing my skills to build functional applications that have a positive impact. Additionally, I have an interest in web development, encompassing both frontend and backend technologies
           </p>
         </ItemLayout>
 
