@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata = {
   title: "M Ahsan Furqan",
   description: "website portofolio pribadi achan.",
+  icons: {
+    icon: '/logo.svg',
+  },
 };
 
 export default function RootLayout({
