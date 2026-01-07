@@ -90,6 +90,15 @@ export const projectsData: IProjectsData[] = [
     image: "/projects/moodpath.png",
     highlights: ["Java"],
   },
+  {
+    id: 8,
+    name: "Catch Star Game",
+    description: "Catch Star is an interactive web-based game built with Flutter and powered by the Flame game engine. This game challenges players to catch falling stars with smooth animations and responsive controls, demonstrating the capability of Flutter for creating engaging web gaming experiences",
+    date: "2026-01-07",
+    demoLink: "https://github.com/mahsanfurqan/catch-star-game",
+    image: "/projects/catchstar.png",
+    highlights: ["Flutter Web", "Flame Engine", "Game Development"],
+  },
   // lainnya...
 ];
 
