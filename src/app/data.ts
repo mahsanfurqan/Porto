@@ -99,7 +99,6 @@ export const projectsData: IProjectsData[] = [
     image: "/projects/catchstar.png",
     highlights: ["Flutter Web", "Flame Engine", "Game Development"],
   },
-  // lainnya...
 ];
 
 export interface IBtnList {
