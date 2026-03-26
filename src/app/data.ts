@@ -22,7 +22,7 @@ export interface IProjectsData {
   description: string;
   date: string;
   demoLink: string;
-  image: string;
+  image: string | string[];
   highlights: string[];
 }
 
@@ -98,6 +98,16 @@ export const projectsData: IProjectsData[] = [
     demoLink: "https://github.com/mahsanfurqan/game2",
     image: "/projects/catchstar.png",
     highlights: ["Flutter Web", "Flame Engine", "Game Development"],
+  },
+  {
+    id: 9,
+    name: "Website Apotek Kita",
+    description:
+      "Website Apotek Kita is a web application for medicine management that helps users quickly search drug stock, monitor availability, and access clear medicine information to make pharmacy operations more efficient.",
+    date: "2025-11-26",
+    demoLink: "https://apotekkkitaweb.vercel.app/",
+    image: ["/projects/webapotekkita.png", "/projects/webapotekkita2.png"],
+    highlights: ["Next.js", "Laravel"],
   },
 ];
 

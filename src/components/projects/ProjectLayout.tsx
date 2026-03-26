@@ -23,6 +23,8 @@ const ProjectLayout = ({
   image,
   highlights,
 }: IProjectsData) => {
+  const images = Array.isArray(image) ? image : [image];
+
   return (
     <NavLink
       variants={item}
@@ -30,13 +32,26 @@ const ProjectLayout = ({
       target="_blank"
       className="w-full flex flex-col md:flex-row gap-4 rounded-lg overflow-hidden p-4 md:p-6 custom-bg hover:shadow-lg transition-shadow duration-300"
     >
-      <div className="relative w-full md:w-[300px] h-[180px] rounded-md overflow-hidden shrink-0">
-        <Image
-          src={image}
-          alt={name}
-          fill
-          className="object-cover rounded-md"
-        />
+      <div
+        className={`w-full md:w-[300px] rounded-md overflow-hidden shrink-0 ${
+          images.length > 1 ? "flex flex-col gap-2" : "h-[180px] relative"
+        }`}
+      >
+        {images.map((img, idx) => (
+          <div
+            key={`${name}-img-${idx}`}
+            className={`relative w-full rounded-md overflow-hidden ${
+              images.length > 1 ? "h-[180px]" : "h-full"
+            }`}
+          >
+            <Image
+              src={img}
+              alt={`${name} preview ${idx + 1}`}
+              fill
+              className="object-cover rounded-md"
+            />
+          </div>
+        ))}
       </div>
 
 
